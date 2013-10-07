@@ -17,6 +17,11 @@ PATH
       rest-client (>= 1.0.4, < 1.7.0)
       yajl-ruby (~> 1.1)
 
+PATH
+  remote: gems/knife-dialect-erbyaml
+  specs:
+    knife-dialect-erbyaml (0.0.1)
+
 GEM
   specs:
     coderay (1.0.9)
@@ -62,4 +67,5 @@ PLATFORMS
 
 DEPENDENCIES
   chef!
+  knife-dialect-erbyaml!
   pry
